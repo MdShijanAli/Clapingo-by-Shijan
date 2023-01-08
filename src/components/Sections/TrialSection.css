@@ -1,0 +1,80 @@
+.linearbg {
+    background: linear-gradient(90deg, #00D2FF -13.02%, rgba(0, 210, 255, 0) 103.77%);
+
+    width: 530px;
+    height: 358px;
+    left: 0px;
+    position: relative;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 205px;
+    height: 96px;
+    left: 162px;
+    top: 72px;
+
+    background: #3A3636;
+    border-radius: 12px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 205px;
+    height: 96px;
+    left: 398px;
+    top: 72px;
+
+    background: #3A3636;
+    border-radius: 12px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 205px;
+    height: 96px;
+    left: 193px;
+    top: 198px;
+
+    background: #3A3636;
+    border-radius: 12px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 205px;
+    height: 96px;
+    left: 428px;
+    top: 198px;
+
+    background: #3A3636;
+    border-radius: 12px;
+}

@@ -1,0 +1,12 @@
+.subscribe {
+    position: absolute;
+    width: 243px;
+    height: 510px;
+
+    top: 55px;
+    left: 650px;
+    overflow: hidden;
+    background: url(../../images/Subscribe\ &\ plans\ 1.png);
+    border-radius: 18px;
+
+}

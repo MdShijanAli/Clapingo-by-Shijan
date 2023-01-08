@@ -1,0 +1,57 @@
+.offer1 {
+    background: url(../../images/offer1.png);
+    position: relative;
+    width: 380px;
+    height: 432px;
+    border-radius: 10px;
+}
+
+.offerBox1 {
+    position: absolute;
+    width: 380px;
+    height: 143px;
+    left: 0px;
+    bottom: 0px;
+
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) -14.34%, #C4C4C4 116.43%);
+    backdrop-filter: blur(32.5px);
+}
+
+.offer2 {
+    position: relative;
+    width: 380px;
+    height: 432px;
+    border-radius: 10px;
+    background: url(../../images/offer2.png);
+}
+
+.offerBox2 {
+    position: absolute;
+    width: 380px;
+    height: 143px;
+    left: 0px;
+    bottom: 0px;
+
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) -14.34%, #C4C4C4 116.43%);
+    backdrop-filter: blur(32.5px);
+}
+
+.offer3 {
+    position: relative;
+    width: 380px;
+    height: 432px;
+    border-radius: 10px;
+
+    background: url(../../images/offer3.png);
+}
+
+.offerBox3 {
+    position: absolute;
+    width: 380px;
+    height: 143px;
+    left: 0px;
+    bottom: 0px;
+
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) -14.34%, #C4C4C4 116.43%);
+    backdrop-filter: blur(32.5px);
+}
