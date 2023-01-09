@@ -8,7 +8,7 @@
 }
 
 .box1 {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
 }
 
 .box2 {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
 }
 
 .box3 {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +62,7 @@
 }
 
 .box4 {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

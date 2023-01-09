@@ -1,5 +1,6 @@
 import React from 'react';
 import ClampingoSection from '../components/Sections/ClampingoSection';
+import DownloadNowSection from '../components/Sections/DownloadNowSection';
 import HeroSection from '../components/Sections/HeroSection';
 import OfferSection from '../components/Sections/OfferSection';
 import ResourcesSection from '../components/Sections/ResourcesSection';
@@ -15,6 +16,7 @@ const Home = () => {
             <WorksSection></WorksSection>
             <ClampingoSection></ClampingoSection>
             <ResourcesSection></ResourcesSection>
+            <DownloadNowSection></DownloadNowSection>
         </div>
     );
 };

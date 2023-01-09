@@ -4,7 +4,7 @@ import middleImg from '../../images/Subscribe & plans 1.png'
 
 const WorksSection = () => {
     return (
-        <div className='px-40 mx-auto my-52 relative'>
+        <div className='md:px-40 px-5 mx-auto my-52 relative'>
             <h1 className='justify-start text-3xl font-bold mb-10'>How it works ?</h1>
             <div className='md:grid md:grid-cols-3 mt-10 items-center'>
                 <div className='workbox'>
@@ -12,13 +12,13 @@ const WorksSection = () => {
                         <h2 className='text-2xl font-semibold mb-2'>1. Create Account</h2>
                         <p>Create your account using phone number or email and take a free trial at ₹1.</p>
                     </div>
-                    <div className='shadow-2xl shadow-[#ccd2d4] p-10 mt-16'>
+                    <div className='shadow-2xl shadow-[#ccd2d4] p-10 mt-16 mb-10 md:mb-0'>
                         <h2 className='text-2xl font-semibold mb-2'>3. Select time slot</h2>
                         <p>Subscribe & select any time slot between 10 AM to 12 midnight.</p>
                     </div>
                 </div>
-                <div className=' mx-auto'>
-                    <img src={middleImg} alt="" />
+                <div className='  mb-10 md:mb-0'>
+                    <img className=' mx-auto' src={middleImg} alt="" />
                 </div>
                 <div className='workbox'>
                     <div className='shadow-2xl shadow-[#ccd2d4] p-10'>
