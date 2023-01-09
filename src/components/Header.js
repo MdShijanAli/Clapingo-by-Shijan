@@ -16,6 +16,7 @@ const Header = () => {
         logOut()
             .then(() => {
                 console.log('successfuly logout');
+                localStorage.removeItem('UserId', user.email)
                 toast.success('You have logged Out Successfully!!')
             })
             .catch(error => {

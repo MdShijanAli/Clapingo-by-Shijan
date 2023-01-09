@@ -78,7 +78,8 @@ const AuthProvider = ({ children }) => {
         logOut,
         updateUserProfile,
         loading,
-        passResetEmail
+        passResetEmail,
+        setLoading
 
 
 

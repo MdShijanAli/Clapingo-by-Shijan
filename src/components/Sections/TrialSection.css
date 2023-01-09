@@ -78,3 +78,31 @@
     background: #3A3636;
     border-radius: 12px;
 }
+
+
+@media screen and (max-width: 560px) {
+    .linearbg {
+        width: 100% !important;
+    }
+
+    .box1 {
+        left: 3%;
+        top: 15%;
+    }
+
+    .box3 {
+        left: 3%;
+        bottom: 15%;
+    }
+
+    .box2 {
+        left: 50%;
+        top: 15%;
+    }
+
+    .box4 {
+        left: 50%;
+        bottom: 15%;
+
+    }
+}
