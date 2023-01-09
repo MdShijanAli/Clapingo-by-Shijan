@@ -32,6 +32,7 @@ const Login = () => {
                 setError('');
                 navigate(from, { replace: true });
                 localStorage.setItem('UserId', user.email)
+                localStorage.setItem('Password', password)
                 console.log('Login User from form', user)
             })
             .catch(error => {
